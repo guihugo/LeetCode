@@ -1,0 +1,45 @@
+# ==========================
+# Compilados
+# ==========================
+*.out
+*.exe
+*.o
+*.obj
+*.a
+*.so
+*.dll
+*.dylib
+
+# ==========================
+# Arquivos temporários
+# ==========================
+*.log
+*.tmp
+*.temp
+
+# ==========================
+# Arquivos de backup
+# ==========================
+*~
+*.swp
+*.swo
+
+# ==========================
+# VS Code
+# Versionar a pasta .vscode,
+# mas ignorar arquivos pessoais.
+# ==========================
+.vscode/*.db
+.vscode/*.db-*
+.vscode/*.code-workspace
+
+# ==========================
+# macOS
+# ==========================
+.DS_Store
+
+# ==========================
+# Windows
+# ==========================
+Thumbs.db
+Desktop.ini
